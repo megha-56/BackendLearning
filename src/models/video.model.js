@@ -11,7 +11,7 @@ const videoSchema=new mongoose.Schema(
             type:String,
             required:true
         },
-       title:{
+        title:{
             type:String,
             required:true
         },
@@ -19,7 +19,7 @@ const videoSchema=new mongoose.Schema(
             type:String,
             required:true
         },
-       duration:{
+        duration:{
             type:Number,
             required:true
         },
