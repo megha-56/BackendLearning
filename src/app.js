@@ -8,8 +8,7 @@ app.use(cors({
     origin:process.env.CORS_ORIGIN,
     Credential:true
 }))
-
-
+    
 
 //routes import ,"userRouter" is "router" in the user.routes.js file, we just imported as diff name ,becuase export was default
 import userRouter from "./routes/user.routes.js";
